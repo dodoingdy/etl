@@ -1,0 +1,5 @@
+select
+lp9pur,
+CAST(CAST( lp9des AS CHAR(200) CCSID 65535) AS CHAR(40) CCSID 935) as lp9des
+from  CMPDPRM.LNPAR9  where $CONDITIONS
+

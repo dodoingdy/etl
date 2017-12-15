@@ -1,0 +1,3 @@
+select cp5icd, CAST(CAST( cp5dsc AS CHAR(200) CCSID 65535) AS CHAR(40) CCSID 935) as cp5dsc 
+			 ,CAST(CAST( cp5txt AS CHAR(200) CCSID 65535) AS CHAR(40) CCSID 935) as cp5txt  
+ from   SSS1PRM.CFPAR5    where $CONDITIONS

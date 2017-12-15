@@ -1,0 +1,20 @@
+select
+cfidcd,
+cfidrq,
+cfidty,
+cfidsz,
+cfidmo,
+cfided,
+cfidex,
+cfidet,
+CAST(CAST( cfidsc AS CHAR(200) CCSID 65535) AS CHAR(40) CCSID 935) as cfidsc,
+cfidck,
+cfiddt,
+cfchva,
+cfinvi,
+cfidct,
+cfipre,
+cfigrp,
+cfistp,
+cfvrex
+from BWPDPRM.CFIDDF where $CONDITIONS

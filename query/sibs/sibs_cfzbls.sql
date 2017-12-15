@@ -1,0 +1,1 @@
+select cfblsc,CAST(CAST(cfblsd AS CHAR(200) CCSID 65535) AS CHAR(40) CCSID 935) AS cfblsd,cfsrcc from BWS1PRM.CFZBLS where $CONDITIONS
